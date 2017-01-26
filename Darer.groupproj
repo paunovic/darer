@@ -1,0 +1,36 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{571F0C4D-EAC7-4A2E-B22D-8464F4C18F7B}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="Client v3 - Sniffer\Client\Client.v3.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="Client_v3">
+			<MSBuild Projects="Client v3 - Sniffer\Client\Client.v3.dproj"/>
+		</Target>
+		<Target Name="Client_v3:Clean">
+			<MSBuild Projects="Client v3 - Sniffer\Client\Client.v3.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="Client_v3:Make">
+			<MSBuild Projects="Client v3 - Sniffer\Client\Client.v3.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="Client_v3"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="Client_v3:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="Client_v3:Make"/>
+		</Target>
+		<Import Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')" Project="$(BDS)\Bin\CodeGear.Group.Targets"/>
+	</Project>

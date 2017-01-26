@@ -1,0 +1,74 @@
+[info]
+LanguageName = English
+LocalLanguageName = English
+CountryCode = GB
+Author = Marko Paunovic (paunovic@gmail.com)
+
+[data]
+ComponentContainer.pmTrayShowClient = Show client
+ComponentContainer.pmTraySettings = Settings
+ComponentContainer.pmTrayLanguage = Language
+ComponentContainer.pmTrayLogout = Logout
+ComponentContainer.pmTrayExit = Exit
+
+LoginWindow.frLogin.lbEMail = E-Mail
+LoginWindow.frLogin.lbPassword = Password
+LoginWindow.frLogin.chbRemember = Remember me
+LoginWindow.frLogin.chbAutoLogin = Auto login
+LoginWindow.frLogin.btLogin = Login
+LoginWindow.frLogin.btRegister = Register
+LoginWindow.frRegister.lbHeader = Become a member of Darer community!
+LoginWindow.frRegister.lbEmail = E-Mail:
+LoginWindow.frRegister.lbPassword = Password:
+LoginWindow.frRegister.lbPasswordConfirm = Confirm password:
+LoginWindow.frRegister.lbUsername = Username:
+LoginWindow.frRegister.lbCountry = Country:
+LoginWindow.frRegister.lbCAPTCHA = Security code:
+LoginWindow.frRegister.btCancel = Cancel
+LoginWindow.frRegister.btRegisterNow = Register now!
+LoginWindow.frRegister.chbUserLicense = I agree to the user's
+LoginWindow.frRegister.lbLicenseURL = license agreements
+LoginWindow.frRegister.lbCAPTCHAError = Unable to receive security code from server\nClick here to try again
+
+SettingsWindow = Settings
+SettingsWindow.tsClient = \_\_Client
+SettingsWindow.tsDota = \_\_DotA
+SettingsWindow.btDetect = Detect
+SettingsWindow.lbLanguage = Language
+SettingsWindow.lbWarcraftPath = Warcraft III path
+SettingsWindow.chbStartup = Startup with Windows
+SettingsWindow.chbMinimizeOnLogin = Minimize on login
+SettingsWindow.chbAdMessage = Auto copy Darer message to clipboard when game starts
+SettingsWindow.btOK = OK
+SettingsWindow.btCancel = Cancel
+
+MainWindow.pmExitButtonLogout = Logout
+MainWindow.pmExitButtonExit = Exit
+MainWindow.lbTips = TIPS\n\n1. Paste the promo message to ALL CHAT and get 10 extra rating. The message is auto copied when the game starts, you just need to paste it.\n2. Only 5x5 games in Garena, iCCup, RGC, DLG and Battle.net count\n3. Always run Warcraft III through the platform itself ("Start Game" button in Garena, etc)
+MainWindow.lbHowItWorks = HOW IT WORKS\n\n1. Run the client and login with your Darer account.\n2. Go to Battle.net, Garena, iCCup, DLG or RGC and start a game in the normal way.\n3. When the game starts paste the promo message and you will get the 10 extra rating for that game.\n4. After the game, go to www.darer.com to check your statistics, or click here.
+
+#MainWindow.btSettings = Settings
+#MainWindow.btLogout = Logout
+
+[strresources]
+RS_AUTHENTICATING                    = Authenticating...
+RS_RUN_CLIENT_AS_ADMIN               = Please run client as administrator\n(right click on client icon > "Run as administrator")
+RS_WARDIALOG_TITLE                   = Select Warcraft III executable file
+RS_NO_RESPONSE_FROM_SERVER           = No response from server
+RS_DOWNLOAD_DOWNLOADING              = Downloading file...
+RS_WARCRAFT_REPLAY_NOT_ASSOCIATED    = Replay file isnt associated with Warcraft III! This problem usually happens if you copied game files without installing them. Please reinstall the game.
+RS_STARCRAFT_REPLAY_NOT_ASSOCIATED   = Replay file isnt associated with Starcraft II! This problem usually happens if you copied game files without installing them. Please reinstall the game.
+RS_INVALID_EMAIL                     = Invalid E-Mail
+RS_PASSWORD_MISMATCH                 = Passwords mismatch
+RS_FILL_ALL_FIELDS                   = Please fill all fields
+RS_PASSWORD_TOO_SHORT                = Password must be longer than %d characters
+RS_USERNAME_TOO_SHORT                = Username must be longer than %d characters
+RS_CHECKING_FOR_UPDATES              = Checking for updates...
+RS_REPLAY_DOWNLOADING                = Downloading replay...
+RS_UPDATE_DOWNLOADING                = Downloading update...
+RS_AGREE_TO_TERMS                    = You must agree to user's license agreements
+
+RS_RESPONSE_NOT_UPDATED              = Please update client to latest stable version
+RS_RESPONSE_NO_SANDBOX_VER           = No sandbox version available
+RS_RESPONSE_INVALID_FILE_DOWNLOAD    = Unable to download file
+RS_RESPONSE_INVALID_USERPASS         = Invalid username or password
